@@ -1,0 +1,104 @@
+
+
+h1 {
+text-align: center;
+font-size: 22px;
+}
+
+#na_golovnu
+{
+font-style: italic;
+}
+
+
+ h2
+ {
+ text-align: center;
+ }
+
+ 
+ #stovpec
+ {
+  text-align:center;
+  font-weight:bold;
+ }
+ 
+.ne_parni
+{
+background-color:#808080;
+color:#FFD700;
+}
+
+.parni
+{
+background-color:#FFFFFF;
+color:#FF4500;
+}
+
+
+ .g
+ {
+ background-color:#008000;
+color:#FF00FF;
+ }
+ 
+ .kinec
+ {
+  text-align:right;
+ }
+ 
+ table
+ {
+ border-collapse: collapse;
+ border: 3px solid black;
+ }
+ 
+@media(min-width: 992px)
+{
+	
+th
+{
+	font-size:130%;
+}
+
+td
+{
+	font-size:120%;
+}
+
+
+
+
+}
+@media(min-width:768px) and (max-width:992px)
+{
+	
+	
+	th
+{
+	font-size:120%;
+}
+
+td
+{
+	font-size:110%;
+}
+	
+	
+}
+@media(max-width:768px)
+{
+	
+	th
+{
+	font-size:110%;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,163 @@
+
+
+h1 { 
+text-align: center;
+font-size: 22px;
+}
+
+#na_golovnu 
+{
+font-style: italic;
+}
+
+
+.knopka
+{
+display: inline-block;
+background:#00FFFF;
+color:#800000;
+}
+
+.knopka:hover
+{
+background:magenta;
+color:#00FF00;
+font-style: italic;
+}
+
+.knopka:active
+{
+background:yellow;
+color: #FF0000;
+}
+
+#zmist
+{ 
+text-align:center;
+font-weight:bold;
+}
+
+
+article
+{
+font-size: 120%
+}
+
+#vhoru
+{
+text-transform: uppercase;
+}
+
+#a1
+{
+background-color:#FF4500;
+color:#9ACD32;
+}
+
+#a2
+{
+background-color:#CD5C5C;
+color:#00FFFF;
+}
+
+#a3
+{
+background-color:#FF00FF;
+color:#FFFFF0;
+}
+
+#a4
+{
+background-color:#000000;
+color:#FFFFFF;
+}
+
+#a5
+{
+background-color:#00FF00;
+color:#FF00FF;
+}
+
+@media(min-width: 992px)
+{
+	
+
+#a1{
+    width: 33.33%;
+    float: left;
+    }
+    #a2{
+        width: 33.33%;
+        float: left;
+    }
+    #a3 {
+        width: 33.33%;
+        float: left;
+    }
+    #a4 {
+        width: 50%;
+        float: left;
+    }
+    #a5 {
+        width: 50%;
+        float: left;
+    }
+#zmist
+{
+	float:left;
+	margin-right:100%;
+}
+	
+#da
+{
+	float:left;
+	width:100%;
+	
+}
+
+
+
+}
+@media(min-width:768px) and (max-width:992px)
+{
+	
+	
+
+div
+{
+	width:50%;
+	float:left;
+
+}
+
+}
+#zmist
+{
+	float:left;
+	margin-right:100%;
+}
+	
+#da
+{
+	float:left;
+	width:100%;
+	
+}
+	
+	
+	
+	
+}
+@media(max-width:768px)
+{
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

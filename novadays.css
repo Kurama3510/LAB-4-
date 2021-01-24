@@ -1,0 +1,53 @@
+
+
+h1 {
+text-align: center;
+font-size: 22px;
+}
+
+#na_golovnu 
+{
+font-style: italic;
+}
+
+#n2
+{
+text-align: center;
+}
+
+
+#fon
+{
+background-color:#8B4513 ;
+}
+
+.kursor
+{
+cursor: pointer;
+}
+
+.ne_parni
+{
+background-color:#808080;
+color:#FFD700;
+}
+
+.parni
+{
+background-color:#FFFFFF;
+color:#FF4500;
+}
+
+@media(min-width: 992px)
+{
+	
+
+
+div
+{
+	width:33.3%;
+	float:left;
+
+
+
+}
